@@ -1,0 +1,35 @@
+
+
+ 
+  @media (max-width: 767px) {
+    .navbar-container {
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 1rem;
+    }
+  
+    .menu-icon {
+      display: block;
+    }
+  
+    .nav-menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 80px; /* Adjust top position to match navbar height */
+      left: 0;
+      width: 100%;
+      background-color: #19191a;
+      transition: all 0.3s ease-in-out;
+    }
+  
+    .nav-menu.active {
+      display: flex;
+    }
+  
+    .nav-item {
+      border-bottom: none;
+      padding: 0.5rem 0;
+    }
+  }
+  
